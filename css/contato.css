@@ -1,0 +1,12 @@
+.conteudo{width: 100%; text-align: center; float: left; }
+input,select, textarea,.formulario p {width: 80%;  padding: 2% 0;   margin-top:2%; border-radius:5px; }
+.conteudo p{float: left; width: 100%; }
+#btni {width: 50%; margin-bottom:2%; background: linear-gradient(to top,  #33ff33, #008000); color:#fff; border:2px solid #fff;}
+#btni:hover{background: #ccffcc; cursor:pointer; color: #000;}
+.formulario p{background:#000; color:#fff; width: 80%; margin-left:10%;}
+@media screen and (min-width: 960px){
+	#btni{width: 40%;}
+	.conteudo p{font-size: 1.5em;}
+	input, select, textarea,.formulario p{width: 60%;}
+	.formulario p{margin-left:20%;}
+}

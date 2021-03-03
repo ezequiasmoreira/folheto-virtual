@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Folheto Virtual - Contato</title>
+		<meta charset= "UFT-8" />
+		<!--a tela do site vai ser igual a tela do dispositivo e o zoom vai iniciar na escala 1-->
+		<meta name="viewport" content="width=device-width, initial-scale=1" />	
+        
+		<meta name="description" content="site destinado a oferecer promoções de folhetos físicos em um anbiente virtual" />
+		<meta name="keywords" content="Polheto online, Promoçoes, Ofertas" />
+		<meta name="robots" content="index follow" />
+		<meta name="author" content="Ezequias Moreira do Prado" />
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href='https://fonts.googleapis.com/css?family=Barlow' rel='stylesheet'>
+		<link rel="stylesheet" type="text/css" href="css/menu.css">
+		<link rel="stylesheet" type="text/css" href="css/contato.css">
+		<script type="text/javascript" src="js/caminho.js"></script>
+		<link rel="icon"  href="topo/icone.ico">
+	</head>
+	<body>
+		
+		<header id="topo">
+			
+			<a id="topo480" href="#"><img class="logo480" src="topo/logo480.png" alt="logo folheto online" /></a>
+			<a id="topo" href="#"><img class="logo" src="topo/logo.png" alt="logo folheto online" /></a>
+			<div class= "cadatre_topo">
+				<a class="cadastre" id="topocadastre" href="#"><p>Cadastre-se</p></a>
+			
+				<a class="indique" id="topoindique" href="#"><p>Indicar loja</p></a>
+			</div>
+			<button class="btn-menu"><i class="material-icons">&#xe5d2;</i></button>
+			
+				<nav class="menu" id="nav">
+					<a class="btnclose">x</a>
+					<ul>
+						<li><span class="inicio" ></span><a id="inicio" href="#">Início</a></li>
+						<li><span class="destaque"></span><a id="destaque" href="#">Destaques</a></li>
+						<li><span class="quemsomos"></span><a id="sobre" href="#">Sobre nós</a></li>
+						<li><span class="contato"></span><a id="contato" href="#">Contato</a></li>
+						<li><span class="Cadastre-se"></span><a id="cadastre"href="#">Login</a></li>
+						<li><span class="ajuda"></span><a id="ajuda" href="ajuda.html">Ajuda</a></li>
+					</ul>
+				</nav>				
+		</header>		
+		<main class="conteudo">
+			<div class="formulario">
+				<form action="mailto:ezequiasmoreira@hotmail.com" method="post">
+					<fieldset>						
+						<select>
+							<option>Sou cliente</option>
+							<option>Sou empresa</option>
+						</select>
+						<input type="text" name="nome" placeholder="Seu nome" /><br/>
+						<input type="email" name="email" placeholder="Seu email" />
+						<p>Informe o motivo do contato:</p>
+						<textarea rows="6" cols="40"></textarea><br />
+						<p>Assim que possível lhe responderemos</p>
+						<input id="btni" type="submit" value="Enviar"/>
+					</fieldset>
+				</form>
+			</div>
+		</main>
+		<!--incluir newsletter posteriormente-->
+		<section class="newsletter">
+		</section>
+		<footer class="rodape">
+			<div class="separadores">
+				<div class="mapa">
+					<a id="rindex" href="#"><p>Folheto virtual</p></a>
+					<a id="rsobre" href="#">Sobre</a>
+					<a id="rtermo" href="#">Trabalhe conosco</a>
+					<a id="rcontato" href="#">Entre em contato</a>					
+				</div>
+				<div class="informacoes">
+					<a id="rsaibamais" href="#"><p>Saiba mais</p></a>
+					<a id="rcomofunciona" href="#">Como funciona</a>
+					<a href="https://api.whatsapp.com/send?phone=554898410553">(48)99841-0553
+						<i style="font-size:24px" class="fa">&#xf232;</i>
+					</a>
+					<a id="rface" href="#">Facebook <i style="font-size:24px" class="fa">&#xf082;</i></a>					
+				</div>
+				<div class="copyright">
+					<p>copyright © Folheto Virtual 2018. Todos os direitos reservados</p>
+				</div >
+			</div>
+		</footer>
+		
+	<script type="text/javascript" src="jquery/jquery-3.3.1.js"></script>
+	<script>		
+        $(".btn-menu").click(function(){
+          $(".menu").show();
+        });
+		 $(".btnclose").click(function(){
+          $(".menu").hide();
+        });
+	</script>
+	</body>
+</html>

@@ -1,0 +1,215 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Folheto Virtual - Trabalhe conosco</title>
+		<meta charset= "UFT-8" />
+		<!--a tela do site vai ser igual a tela do dispositivo e o zoom vai iniciar na escala 1-->
+		<meta name="viewport" content="width=device-width, initial-scale=1" />	
+        
+		<meta name="description" content="site destinado a oferecer promoções de folhetos físicos em um anbiente virtual" />
+		<meta name="keywords" content="Polheto online, Promoçoes, Ofertas" />
+		<meta name="robots" content="index follow" />
+		<meta name="author" content="Ezequias Moreira do Prado" />
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href='https://fonts.googleapis.com/css?family=Barlow' rel='stylesheet'>
+		<link rel="stylesheet" type="text/css" href="css/menu.css">
+		<link rel="stylesheet" type="text/css" href="css/cadastre.css">
+		<script type="text/javascript" src="js/caminho.js"></script>
+		<link rel="icon"  href="topo/icone.ico">
+	</head>
+	<body>
+		
+		<header id="topo">
+			
+			<a id="topo480" href="#"><img class="logo480" src="topo/logo480.png" alt="logo folheto online" /></a>
+			<a id="topo" href="#"><img class="logo" src="topo/logo.png" alt="logo folheto online" /></a>
+			<div class= "cadatre_topo">
+				<a class="cadastre" id="topocadastre" href="#"><p>Cadastre-se</p></a>
+			
+				<a class="indique" id="topoindique" href="#"><p>Indicar loja</p></a>
+			</div>
+			<button class="btn-menu"><i class="material-icons">&#xe5d2;</i></button>
+			
+				<nav class="menu" id="nav">
+					<a class="btnclose">x</a>
+					<ul>
+						<li><span class="inicio" ></span><a id="inicio" href="#">Início</a></li>
+						<li><span class="destaque"></span><a id="destaque" href="#">Destaques</a></li>
+						<li><span class="quemsomos"></span><a id="sobre" href="#">Sobre nós</a></li>
+						<li><span class="contato"></span><a id="contato" href="#">Contato</a></li>
+						<li><span class="Cadastre-se"></span><a id="cadastre"href="#">Login</a></li>
+						<li><span class="ajuda"></span><a id="ajuda" href="ajuda.html">Ajuda</a></li>
+					</ul>
+				</nav>	
+		
+			
+			
+			
+				
+		</header>
+		<div class="cidade">
+			<p>Criciúma</p>
+		</div>
+		<div id="contato_form">
+		  <form action="php/enviarcadastre.php" name="form_contato" method="post" >
+		  <p class="titulo">Cadastre-se<small id="obg" class="asteristico"></small></p>
+			<table  class="table"align="center">
+			  <tr>
+				<td>Nome:<sup class="asteristico">*</sup></td>
+				<td>
+				  <input type="text" name="nome" maxlength="40" required />
+				</td>
+			  </tr>
+			  <tr>
+				<td>E-mail:<sup class="asteristico">*</sup></td>
+				<td>
+				  <input type="email" name="email" maxlength="30" required />
+				</td>
+			  </tr>
+			  <tr>
+				<td>Telefone:<sup class="asteristico">*</sup></td>
+				<td>
+				  <input type="text" name="telefone" maxlength="14" required />
+				</td>
+			  </tr>
+			  <tr>
+				<td>Data de nascimento:<sup class="asteristico">*</sup></td>
+				<td>
+				  <input  type="date" name="data" required />
+				</td>
+			  </tr>			  
+			  <tr>
+				<td>Sexo:<sup class="asteristico">*</sup></td>
+				<td>
+				  <select name="escolhas" class="campo_input">
+					<option value="masculino">Masculino</option>
+					<option value="feminino">Feminino</option>
+				  </select>
+				</td>
+			  </tr>
+			  <tr>
+				<td>Cep:<sup class="asteristico">*</sup></td>
+				<td>
+				 <input name="cep" id="CEP" required pattern= "\d{5}-?\d{3}" maxlength="8" required />
+				</td>
+			  </tr>
+			  <tr class="ul">
+				<td>Categorias de interesse<sup class="asteristico"></sup></td>
+				<td>	
+					<ul> 
+						<li>
+							<input type="checkbox" id="supermercado" name="supermercado" value="supermercado">
+							<label for="supermercado">Supermercado</label>
+						</li>
+					</ul>	
+					<ul> 
+						<li>
+							<input type="checkbox" id="sapataria" name="sapataria" value="sapataria" >
+							<label for="sapataria">Sapataria</label>
+						</li>
+					</ul>
+					<ul> 
+						<li>
+							<input type="checkbox" id="farmacia" name="farmacia" value="farmácia" >
+							<label for="farmacia">Farmácia</label>
+						</li>
+					</ul>	
+					<ul> 
+						<li>
+							<input type="checkbox" id="papelaria" name="papelaria" value="papelaria" >
+							<label for="papelaria">Papelaria</label>
+						</li>
+					</ul>	
+					<ul> 
+						<li>
+							<input type="checkbox" id="cosmeticos" name="cosmeticos" value="cosmeticos" >
+							<label for="cosmeticos">Cosméticos</label>
+						</li>
+					</ul>
+					<ul> 
+						<li>
+							<input type="checkbox" id="construcao" name="construcao" value="construcao" >
+							<label for="construcao">Materais de Construção</label>
+						</li>
+					</ul>
+					<ul> 
+						<li>
+							<input type="checkbox" id="salao" name="salao" value="salao" >
+							<label for="salao">Salão de beleza</label>
+						</li>
+					</ul>
+					<ul> 
+						<li>
+							<input type="checkbox" id="automoveis" name="automoveis" value="automoveis" >
+							<label for="automoveis">Automoveis</label>
+						</li>
+					</ul>
+					<ul> 
+						<li>
+							<input type="checkbox" id="alimentacao" name="alimentacao" value="alimentacao" >
+							<label for="alimentacao">Alimentação</label>
+						</li>
+					</ul>
+					<ul> 
+						<li>
+							<input type="checkbox" id="joias" name="joias" value="joias" >
+							<label for="joias">Joalherias</label>
+						</li>
+					</ul>
+				</td>
+			  </tr>
+			  <tr>
+				<td>Informe aqui outros interesses:<sup class="asteristico"></sup></td>
+				<td>
+				  <textarea name="outrosinteresses" cols="16" rows="5"></textarea>
+				</td>
+			  </tr>
+			  <tr align="right";>
+				<td colspan="2">
+				  <input type="reset" class="campo_submit" value="Limpar" />
+				  <input type="submit" class="campo_submit" value="Enviar" />
+				</td>
+			  </tr>
+			  <tr>
+				<td colspan="2" align="right"><small class="asteristico">* Campos obrigatorios</small></td>
+			  </tr>
+			</table>
+		  </form>
+		</div>
+		<!--incluir newsletter posteriormente-->
+		<section class="newsletter">
+		</section>
+		<footer class="rodape">
+			<div class="separadores">
+				<div class="mapa">
+					<a id="rindex" href="#"><p>Folheto virtual</p></a>
+					<a id="rsobre" href="#">Sobre</a>
+					<a id="rtermo" href="#">Trabalhe conosco</a>
+					<a id="rcontato" href="#">Entre em contato</a>					
+				</div>
+				<div class="informacoes">
+					<a id="rsaibamais" href="#"><p>Saiba mais</p></a>
+					<a id="rcomofunciona" href="#">Como funciona</a>
+					<a href="https://api.whatsapp.com/send?phone=554898410553">(48)99841-0553
+						<i style="font-size:24px" class="fa">&#xf232;</i>
+					</a>
+					<a id="rface" href="#">Facebook <i style="font-size:24px" class="fa">&#xf082;</i></a>					
+				</div>
+				<div class="copyright">
+					<p>copyright © Folheto Virtual 2018. Todos os direitos reservados</p>
+				</div >
+			</div>
+		</footer>
+		
+	<script type="text/javascript" src="jquery/jquery-3.3.1.js"></script>
+	<script>		
+        $(".btn-menu").click(function(){
+          $(".menu").show();
+        });
+		 $(".btnclose").click(function(){
+          $(".menu").hide();
+        });
+	</script>
+	</body>
+</html>

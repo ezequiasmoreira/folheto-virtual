@@ -1,0 +1,36 @@
+.logoCliente,.conteudo{ width: 100%; float: left;}
+.logoCliente img{width: 99.5%; float:left; margin-top:1%;margin-bottom:1%;}
+.folheto{width: 100%; float: left; margin-bottom: 2%;}
+.folheto h1{width:100%; text-align:center; line-height:1em; background: #000; padding:2% 0; color:#fff; }
+.contatoCliente, p {width: 100%}
+.contatoCliente	p{padding: 1% 0; background: #fff; border-radius: 10px; margin-bottom:0.5%; text-align:center;}
+.folheto img{width:99%; margin-left: 0%; border-radius: 5px;  border: 3px solid  #39ac39; }
+.botaoflutuane {display: none;}
+.botaoflutuaneP{position: fixed; margin-top: 10px; background: linear-gradient(to top,  #33ff33, #008000); width: 30px; border-radius: 5px; }
+.botaoflutuaneP a{color: #fff;}
+
+.botaoflutuanteEsquerdap{position: fixed; margin-top: 50px; background: linear-gradient(to top,  #33ff33, #008000); width: 30px; border-radius: 5px; }
+.botaoflutuanteEsquerdap a{color: #fff;}
+.botaoflutuanteEsquerda{display: none; position: fixed; margin-top: 100px; background: linear-gradient(to top,  #33ff33, #008000); 
+		width: 30px; border-radius: 5px; }
+			
+@media screen and (min-width: 640px){
+	.logoCliente img{width: 60%; margin-left: 20%;}	
+}
+@media screen and (min-width: 960px){
+	.botaoflutuaneP{display: none;}
+	.botaoflutuane{display:block;}
+	.botaoflutuanteEsquerda{display:block;}
+	.botaoflutuanteEsquerdap{display: none;}
+	.botaoflutuanteEsquerda {position: fixed;  width:94px; background: linear-gradient(to top,  #33ff33, #008000); text-align:center; 
+	border-radius: 7px; color: #fff; border: 2px solid #fff; cursor: pointer;}
+	.folheto img{width:80%; margin-left: 10%;}
+	.botaoflutuane{position: fixed;  width:80px; background: linear-gradient(to top,  #33ff33, #008000); text-align:center; 
+	border-radius: 7px; color: #fff; border: 2px solid #fff; cursor: pointer;}
+	
+	header, article{background: #ccffcc;;}
+		a{color: #fff;}
+}
+@media screen and (min-width: 1280px){
+	.folheto img{width:70%; margin-left: 15%;}
+}

@@ -1,0 +1,61 @@
+
+/*anuncios*/
+.servicos{width: 100%; float: letft; margin-bottom: 3%;}
+.servicos img{margin-top: 2%; border-radius: 7px; width: 100%; float:left;}
+.inner { float: left; padding:7%}
+.inner p{ line-height: 1.5em; color: #130400; top: 10%; text-align: center;}
+.confira{margin-left: 15%; padding: 1% 4% 4% 4%; width: 70%; margin-top: 4%; border: 2px solid #BAB9AB;
+         border-radius: 10px; font-weight: bold; background: linear-gradient(to top,  #33ff33, #008000); color:#fff; font-size:1.5em;}
+.confira:hover{background:#ccffcc; color: #000000; cursor:pointer;}
+.rodape{width: 100%; float: left; background-color: #000000;}
+.separadores{ width: 100%; float: left; text-align: center;}
+.mapa{width: 100%; float:left;  }
+.mapa a p{font-size: 1em; color:#fff; font-weight: bold; width: 100%;}
+.mapa a{width: 100%; font-size:0.5em; color:#fff; padding:2%; }
+.informacoes {width: 100%; float:left; }
+.informacoes a p{font-size: 1em; color:#fff; font-weight: bold; width: 100%;}
+.informacoes a{width: 100%; font-size:0.5em; color:#fff; padding:2%;}
+.copyright{width: 100%; float:left;  margin-bottom: 2%; margin-top:2%;}
+.copyright p{width: 100%; color:#fff; float: left; font-size:0.5em;}
+
+@media screen and (min-width: 480px){
+		
+}
+@media screen and (min-width: 640px){
+	.btn-menu{display: none;}
+	
+	.btnclose{display: none;}
+	.menu{width:100%; height: 56px; line-height: 56px; float: left; background-color: #f5f5f5;
+	display:block /*forÃ§a a puxar o menu*/!important; position: static;}
+	.menu li {padding: 0; float: left;}
+	.menu li a{color: #130400; font-size: 0.9em; padding: 15px;}
+	
+	.baner {width:50%; float: center; }
+	.servicos{width:49%; float: left; margin-left:1%; }
+	.inner p{padding:5%; font-size:0.8em;}
+	.mapa a p{font-size: 1.5em; }
+	.mapa a{font-size:1em; }
+	.informacoes a p{font-size: 1.5em; }
+	.informacoes a{font-size:1em;}
+	#nav li {width:16%; font-size:0.8em; margin-left:0.3%;}
+	
+}
+@media screen and (min-width: 960px){
+	.baner {width:40%; float: left; }
+	.servicos{width:29%; float: left; margin-left:1%; }	
+	#nav li {font-size:1em; }
+	#nav ul {margin-left:0.5%;}
+	
+}
+@media screen and (min-width: 1280px){
+	.baner {width:30%; float: left; }	
+	.servicos{width:33%; float: left; margin-left:0.33%; }
+	.serv{width: 34%; float: left; margin-left:1%; }
+	.inner p{ line-height: 1em; }
+	.mapa{width: 50%;}
+	.informacoes {width:50%;}
+	.copyright {font-size:1.5em;}
+	
+}
+
+

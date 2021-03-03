@@ -1,0 +1,55 @@
+
+.escolha{width: 100%; float: left;}
+.escolha button{width:48%;  margin-left:0.8%; padding:3%; border-radius: 7px; margin-top:0.8%; margin-bottom: 2%;}
+.escolha button:nth-child(1){background:#fff; border: 1px solid #000;}
+.btnCliente:hover{background: #39ac39; color: #39ac39;  text-decoration: underline; line-height:1.2em; cursor:pointer;}
+.escolha button:nth-child(2){background:#39ac39; color: #fff;}
+.btnLojista:hover{color: #39ac39; text-decoration: underline; line-height:1.2em; cursor:pointer; }
+.cliente img{width:95%; float: left; margin-left:2.5%; border: 6px solid #000; margin-bottom: 5%; margin-top: 5%;}
+.textoCli{float: left; text-align: center; width: 100%; background-color: #fff;}
+.textoCli p{line-height:2em; font-weight: bold; color: #003300; padding: 2% 0; background: #fff; }
+.cadastreCli{width: 100%; color:#fff; background-color: #39ac39; padding:1% 0; float: left;}
+.cadastreCli button{float:left;background: #fff; width: 80%; text-align: center; padding: 2%; margin-left:10%; font-size:1.5em; font-weight: bold; border-radius: 10px; color: #000;
+cursor: pointer;}
+#btni{margin-left: 10%; cursor:pointer; border: 2px solid #fff; background: linear-gradient(to top,  #33ff33, #008000);}
+#btni:hover{background: rgba(0,0,0,0.1); color: #000000;border: 2px solid #fff;}
+.cadastreCli button:hover{background: #ccffcc; }
+.cadastreCli h1{text-align:center; padding:0%; margin-bottom:3%;font-size:2em; font-weight: bold;}
+input{width:80%; padding: 5%; margin-left:4.5%; margin-bottom: 10%; border-radius: 7px;}
+.cadastreCli p{line-height: 1.5em; text-align:center; padding: 4% 0; margin-bottom:2%;}
+
+#contato_form, .table{ width: 100%; float: left; }
+.titulo, #obg{width:100%; font-size: 0.8em; text-align:center; background: #39ac39; color:#fff; padding:1.5% 0;} 
+td, .cadastroemail {width: 100%; float: left; text-align: center; width: 100%;}
+td{ font-weight: bold; color: #003300;}
+.cadastroemail{margin-top: 1%; padding: 2% 0; border-radius: 7px; margin-bottom:1%; background:#fff; }
+.cadastroemail{width: 90%; margin-left: 5%; padding: 3% 0;}
+.campo_submit{width: 70%; margin-left: 0%; background: linear-gradient(to top,  #33ff33, #008000); border: 2px solid #fff;}
+.campo_submit:hover{background: rgba(0,0,0,0.1); color: #000000;border: 2px solid #fff; cursor:pointer;}
+
+
+
+	
+
+@media screen and (min-width: 960px){	
+	.escolha button{width:40%;  font-size: 1.5em;  margin-left:7%; padding: 2%; }
+	.cliente img{width:70%; float: left; margin-left:15%;}
+	.textoCli p{line-height:2em; font-size: 1.8em; }
+	.cliente img{width: 45%; float: left; margin-left:2.5%; border: 6px solid #000; margin-bottom: 5%; margin-top: 5%;}
+	input{float:left; width:50%; padding: 3%; margin-left:4.5%; margin-bottom: 3%; border-radius: 7px;}
+	#btni{ width:30%; margin-left: 35%; padding: 3%;}
+	.cadastreCli #titulo{ padding:0%; margin-bottom:0%; margin-top:0;}
+	.cadastreCli p{line-height: 2em; text-align:center; padding: 4% 0; margin-bottom:2%; font-size:1.5em;}
+	.cadastreCli h1{font-size: 3em;}
+	.cadastroemail{width: 70%; margin-left: 15%;}
+	.campo_submit{width: 50%; margin-left: 25%; }
+	
+	
+
+}
+@media screen and (min-width: 1280px){
+	.cliente img{width: 40%; float: left; margin-left:2%; border: 6px solid #000; margin-bottom: 5%; margin-top: 5%;}
+	.cliente img:nth-child(1){margin-left:8%;}
+	.cadastroemail{width: 60%; margin-left: 20%; padding: 2% 0;}
+	.campo_submit{width: 30%; margin-left: 35%; padding: 2% 0; }
+}

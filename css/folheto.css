@@ -1,0 +1,45 @@
+.expira{width: 100%; float: left;}
+/*alterar para a cor do cliente ofundo*/
+.folheto{background: yellow;}
+
+.cabecalho img{width: 30%; border: none; margin-left: 10%; margin-top: 0; float: left; }
+.serv1{width: 55%; float: left; margin-top: 10%; margin-left: 4%; text-align: center; margin-right: 1%; border-radius: 10px;
+		float: left; padding: 2% 0; }
+/*alterar o backgroud 1 pa a cor da logo do cliente*/
+.serv1{background: rgba(0,0,0,0.9); color: #fff; }
+
+.campos{width:100%; float: left; margin-top: 5%; text-align: center;}
+
+
+.servdois{ width: 70%;float: left; background: red; margin-top: 2%; padding: 2% 0; text-align: center; 
+			border-radius: 10px; margin-left: 15%;}
+
+.orcamento{width: 100%; float:left; text-align: center; font-weight:bold; margin-top: 2%;}
+
+/*alterar cor */
+.servdois{background: #fff; font-weight: bold;}
+
+.contatofolheto{width: 100%; float: left; text-align: center; margin-top: 2%; }
+.telefone{background: #000; width: 100%; float: left;}
+.contatofolheto p{width: 100%;  background:#fff; padding: 2% 0; font-size: 1.3em;} 
+.contatofolheto h1{width: 50%; float: left;}
+.contatofolheto .tel3{width: 100%; float: left; text-align: center;}
+/*.contatofolheto h1:nth-child(4){width: 100%; float: left;}*/
+.contatofolheto h2{width: 100%; float: left; padding: 1% 0; font-size: 0.8em;}
+.telefone2{width: 100%; float: left; text-align: center;}
+.telefone2 h2{width: 50%; float: left; color: #fff;}
+.telefone3{width: 100%; float: left; text-align: center;}
+.telefone3 h3{width: 100%; float: left; color: #fff;}
+
+@media screen and (min-width: 480px){
+		.serv1{padding: 2%; width: 51%;}
+		
+}
+@media screen and (min-width: 640px){
+	.serv1,.servdois{ font-size:1.5em;}
+	.orcamento { font-size: 2em;}
+	.contatofolheto h2{font-size: 1em;}
+	.serv1{padding: 4% 0;}
+	.contatofolheto h1,.contatofolheto .tel3{width: 32%}
+	
+}

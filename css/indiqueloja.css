@@ -1,0 +1,28 @@
+#contato_form, .table{ width: 100%; float: left; }
+.titulo, #obg{width:100%; font-size: 0.8em; text-align:center; background: #39ac39; color:#fff; padding:1.5% 0;} 
+td, input, select, textarea{width: 100%; float: left; text-align: center; width: 100%;}
+td{ font-weight: bold; color: #003300;}
+input, select, textarea{margin-top: 1%; padding: 2% 0; border-radius: 7px; margin-bottom:1%; background:#fff; }
+.campo_submit{width: 70%; margin-left: 15%; padding: 3% 0; cursor: pointer; background: linear-gradient(to top,  #33ff33, #008000); border: 2px solid #fff;}
+.campo_submit:hover{background: #ccffcc; color:#003300;}
+ .ul li{border-radius: 7px; width:100%; margin-bottom: 2%; background: #fff; padding: 2% 0;}
+.ul ul, .ul li{width: 100%; float: left; border-radius: 7px;}
+.ul li label{width: 90%; float: left; margin-left: 0; text-align: left;}
+.ul li input{width: 10%;float: left; margin-left: 0;}
+
+@media screen and (min-width: 640px){
+	
+	td, input, select, textarea{ width: 90%; margin-left: 5%;}
+	input, .campo_submit{ padding: 4% 0;}
+	.campo_submit{width: 60%; margin-left: 20%;
+	
+}
+@media screen and (min-width: 720px){
+	.ul li,td, input, select, textarea{width: 80%; margin-left: 10%;}
+	.campo_submit{width: 50%; margin-left: 25%;}
+	
+}
+@media screen and (min-width: 960px){
+	td, input, select, textarea{width: 70%; margin-left: 15%;}
+	.campo_submit{width: 40%; margin-left: 30%;
+}
